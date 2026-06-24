@@ -14,10 +14,11 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
-      { id: 1, name: "C#", path: "/assets/logos/csharp.svg" },
-      { id: 2, name: ".Net", path: "/assets/logos/dotnet.svg" },
-      { id: 3, name: "Ef Core", path: "/assets/logos/efcore.png" },
-      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 1, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 3, name: "Node", path: "/assets/logos/nodejs.png" },
+      { id: 4, name: "Express", path: "/assets/logos/express.png" },
+      { id: 5, name: "MongoDB", path: "/assets/logos/mongodb.png" },
     ],
   },
   {
@@ -37,33 +38,12 @@ export const myProjects = [
     tags: [
       { id: 1, name: "Auth0", path: "/assets/logos/auth0.svg" },
       { id: 2, name: "React", path: "/assets/logos/react.svg" },
-      { id: 3, name: "SQLite", path: "/assets/logos/sqlite.svg" },
+      { id: 3, name: "MongoDB", path: "/assets/logos/mongodb.png" },
       { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      { id: 1, name: "Blazor", path: "/assets/logos/blazor.svg" },
-      { id: 2, name: ".NET Core", path: "/assets/logos/dotnetcore.svg" },
-      { id: 3, name: "SQLite", path: "/assets/logos/sqlite.svg" },
-      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
-    ],
-  },
-  {
-    id: 4,
     title: "C++ Game Engine",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
@@ -78,13 +58,12 @@ export const myProjects = [
     image: "/assets/projects/game-engine.jpg",
     tags: [
       { id: 1, name: "C++", path: "/assets/logos/cplusplus.svg" },
-      { id: 2, name: "C#", path: "/assets/logos/csharp.svg" },
-      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
-      { id: 4, name: "Microsoft", path: "/assets/logos/microsoft.svg" },
+      { id: 2, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 3, name: "Microsoft", path: "/assets/logos/microsoft.svg" },
     ],
   },
   {
-    id: 5,
+    id: 4,
     title: "WordPress Custom Theme",
     description:
       "A fully customizable WordPress theme optimized for performance and SEO.",
@@ -105,7 +84,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     title: "Online Learning Platform",
     description:
       "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
@@ -119,10 +98,10 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
-      { id: 1, name: "Blazor", path: "/assets/logos/blazor.svg" },
-      { id: 2, name: "Azure", path: "/assets/logos/azure.svg" },
-      { id: 3, name: "Stripe", path: "/assets/logos/stripe.svg" },
-      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 3, name: "Node", path: "/assets/logos/nodejs.png" },
+      { id: 4, name: "MongoDB", path: "/assets/logos/mongodb.png" },
     ],
   },
 ];
